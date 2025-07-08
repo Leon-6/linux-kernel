@@ -3,48 +3,11 @@
 ifeq ($(CONFIG_VENDOR_FRIENDLYELEC),y)
 
 dtb-$(CONFIG_ARCH_ROCKCHIP) += \
-	rk3399-nanopi4-rev00.dtb \
-	rk3399-nanopi4-rev01.dtb \
-	rk3399-nanopi4-rev04.dtb \
-	rk3399-nanopi4-rev06.dtb \
-	rk3399-nanopi4-rev07.dtb \
-	rk3399-nanopi4-rev09.dtb \
-	rk3399-nanopi4-rev0a.dtb \
-	rk3399-nanopi4-rev0b.dtb \
-	rk3399-nanopi4-rev21.dtb \
-	rk3399-nanopi4-rev22.dtb
-
-dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3528-nanopi-rev01.dtb
-
 dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3566-nanopi-r3-rev01.dtb \
-	rk3566-nanopi-r3-rev02.dtb \
-	rk3566-nanopi-r3-rev07.dtb
+	rk3566-nanopi-r3-rev02.dtb 
 
-dtb-$(CONFIG_ARCH_ROCKCHIP) += \
-	rk3568-nanopi5-rev01.dtb \
-	rk3568-nanopi5-rev02.dtb \
-	rk3568-nanopi5-rev03.dtb \
-	rk3568-nanopi5-rev04.dtb \
-	rk3568-nanopi5-rev05.dtb \
-	rk3568-nanopi5-rev07.dtb
-
-dtb-$(CONFIG_ARCH_ROCKCHIP) += \
-	rk3576-nanopi5-rev01.dtb \
-	rk3576-nanopi5-rev02.dtb
-
-dtb-$(CONFIG_ARCH_ROCKCHIP) += \
-	rk3588-nanopi6-rev01.dtb \
-	rk3588-nanopi6-rev02.dtb \
-	rk3588-nanopi6-rev03.dtb \
-	rk3588-nanopi6-rev04.dtb \
-	rk3588-nanopi6-rev05.dtb \
-	rk3588-nanopi6-rev06.dtb \
-	rk3588-nanopi6-rev07.dtb \
-	rk3588-nanopi6-rev08.dtb \
-	rk3588-nanopi6-rev09.dtb \
-	rk3588-nanopi6-rev0a.dtb
 
 else
 
